@@ -60,7 +60,6 @@
                  "Enunciate":"Crea nuevo usuario",
                  "Parts": ["mkdir","create","Nombre_usuario","adduser"],
                  "Confirm":"adduser Nombre_usuario"
-
             }
 
         ]
