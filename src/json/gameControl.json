@@ -43,6 +43,36 @@
                 "Enunciate":"Eliminar un directorio y su contenido recursivamente ",
                 "Parts": [" NombreDirectorio", "rm -rf", "remove", "directory"],
                 "Confirm":"rm -rf directory"
+            },
+             {
+                "id":5,
+                "Enunciate":"Elimina archivo",
+                "Parts":["mr","rmdir"," NombreDeArchivo","eliminate"],
+                "Confirm":"mr NombreDeArchivo"
+            },
+        
+            {
+                 "id": 6,
+                 "Enunciate":"Eliminar una Carpeta con todos sus contenidos",
+                 "Parts": ["rmdir", "rm", "-rf"," NombreDeCarpeta"],
+                 "Confirm":"rm -rf NombreDeCarpeta"
+        
+            },
+
+            {
+                 "id": 7,
+                 "Enunciate":"Inicia sesión",
+                 "Parts": ["login", "Usuario nombre", "Nombre_usuario"," whoami"],
+                 "Confirm":"login Nombre_usuario"
+        
+            },
+
+          {
+                 "id": 8,
+                 "Enunciate":"Crea nuevo usuario",
+                 "Parts": ["mkdir","create","Nombre_usuario","adduser"],
+                 "Confirm":"adduser Nombre_usuario"
+
             }
 ] }
         ]
